@@ -1,3 +1,7 @@
+:root {
+    font-family: "Open Sans", sans-serif;
+}
+
 *{ /*tirando espaçamentos padões*/
     margin: 0;
     padding: 0;
@@ -12,38 +16,79 @@ main {
     margin: 88px auto;
 }
 
-#heartIcon{
-    width: 16px;
-    vertical-align: middle;
+#im_principal {
+    margin-bottom: 24px;
 }
+
+#primeirahr {
+    margin-top: 40px;
+    margin-bottom: 64px;
+}
+#segundahr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 
 #casais{
     color: #591B98;
+    font-weight: bold;
 }
 #familia{
     color: #E5245E;
+    font-weight: bold;
 }
 #orcamento {
     color: #E95E10;
+    font-weight: bold;
+}
+
+#destino {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.titulos {
+    font-weight: bold;
 }
 
 .historia{
     color: #0C51A7;
+    margin-bottom: 48px;
+    font-weight: bold;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.descricaolugar {
+    margin-top: 4px;
+    margin-bottom: 24px;
+
 }
 
 h1 {
     font-size: 49px;
     color: #1B1B1B;
+    margin-top: 8px;
+    margin-bottom: 40px;
 }
 
 h2 {
     font-size: 44px;
     color: #1B1B1B;
+    margin-bottom: 8px;
 }
 
 h4{
     color: #E1624F;
     font-size: 22px;
+    margin-bottom: 2px;
+}
+
+h5 {
+    font-size: 16px;
 }
 
 hr {
@@ -59,10 +104,13 @@ img{
     object-fit: cover;
     border-radius: 28px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 footer{
     text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 ul {
@@ -79,3 +127,7 @@ ul li::before{ /*ajeitando a bolinha da ul ficar preta diferente da fonte*/
     margin-right: 10px;
 }
 
+#heartIcon{
+    width: 16px;
+    vertical-align: middle;
+}
